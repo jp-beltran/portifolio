@@ -1,0 +1,17 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 5rem;
+
+    color: white;
+}
+
+.section h2{
+    font-size: var(--h2-font-size);
+}
+
+
+

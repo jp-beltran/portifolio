@@ -1,0 +1,98 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4.8rem 0;
+    height: auto;
+    
+    color: var(--white);
+    text-align: center;
+}
+
+.social-media{
+    display: flex;
+    padding: .5rem 3rem;
+    align-items: center;
+    gap: 7.3rem;
+
+    margin: 3rem ;
+
+    border-bottom: 1px solid var(--white);
+
+    
+}
+
+.social-media img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.social-media img:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .social-media img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+/* Responsividade para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 2.5rem 1.5rem;
+        gap: 3rem;
+    }
+    
+
+    .social-media img {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+}
+
+/* Responsividade para notebooks */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .footer {
+        flex-direction: row;
+        align-items: center;
+        padding: 3rem 2rem;
+        gap: 5rem;
+    }
+
+    .social-media img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+/* Responsividade para telas maiores */
+@media (min-width: 1441px) {
+    .footer {
+        flex-direction: row;
+        align-items: center;
+        padding: 3rem;
+        gap: 7.3rem;
+    }
+
+    .social-media img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+
+
